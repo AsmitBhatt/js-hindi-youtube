@@ -3,23 +3,25 @@ let score = "hitesh"
 //console.log(typeof score);
 //console.log(typeof(score));
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score) //Type conversion of 'String' into 'Number'
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
 
 // "33" => 33
-// "33abc" => NaN
+// "33abc" => NaN  (Not a Number)
 //  true => 1; false => 0
+// null => 0
+// undefined => NaN
 
 let isLoggedIn = "hitesh"
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+let booleanIsLoggedIn = Boolean(isLoggedIn)  //Type conversion of 'String' into 'Boolean'
 //  console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
-// "hitesh" => true
+// "ashmit" => true
 
 let someNumber = 33
 
